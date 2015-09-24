@@ -11,6 +11,7 @@
     "url": "https://m.sakamaki@stash.cellpj.com/scm/kac/kac-e2e.git"
   },
   "devDependencies": {
+    "angular": "^1.4.6",
     "angular-mocks": "^1.4.6",
     "connect-history-api-fallback": "^1.1.0",
     "esdoc": "^0.2.5",
