@@ -8,7 +8,7 @@
   "description": "sample application",
   "main": [
     "bin/index.js",
-    "bin/index.min.css",
+    "bin/index.min.css"
   ],
   "moduleType": [
     "es6"
