@@ -39,7 +39,7 @@ module.exports = function(grunt) {
         'babel:demo',
         'copy:demo',
         'cssmin:build',
-        'ngtemplates:build',
+        'ngtemplates:app.directive.sample',
         'concat:build',
         'uglify:build',
       ];

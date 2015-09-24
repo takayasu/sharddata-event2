@@ -3,7 +3,7 @@
   'use strict';
 
   module.exports = {
-    build: {
+    'app.directive.sample': {
       src: 'src/**.html',
       dest: '.tmp/templates.js',
     },
