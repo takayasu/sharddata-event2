@@ -11,7 +11,7 @@ describe('Directive: sample directive', function BasedTeseSwite() {
   var $rootScope;
   var $compile;
   var directiveHTML = '<app-sample></app-sample>';
-  var resultHTML = '<div>Hello Sample Directive</div>';
+  var resultHTML = '<div class="app-directive-sample-container">\n <span class="app-sample-main">Hello Sample Directive</span>\n</div>';
 
   beforeEach(inject([
     '$rootScope', '$compile', '$templateCache',
