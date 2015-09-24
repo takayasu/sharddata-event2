@@ -3,9 +3,11 @@
   'use strict';
 
   module.exports = {
-    'app.directive.sample': {
-      src: 'src/**.html',
-      dest: '.tmp/templates.js',
+    build: {
+      module: 'app.directive.sample',
+      cwd: 'src',
+      src: '*.html',
+      dest: '../.tmp/templates.js',
     },
   };
 })();

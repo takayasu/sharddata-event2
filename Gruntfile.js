@@ -8,7 +8,6 @@ module.exports = function(grunt) {
   var options = {
     // Configurable paths
     paths: {
-      sinario: 'scenario',
       build: '.tmp',
     },
     pkg: grunt.file.readJSON('package.json'),
@@ -39,7 +38,7 @@ module.exports = function(grunt) {
         'babel:demo',
         'copy:demo',
         'cssmin:build',
-        'ngtemplates:app.directive.sample',
+        'ngtemplates:build',
         'concat:build',
         'uglify:build',
       ];

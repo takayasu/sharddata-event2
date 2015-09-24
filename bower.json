@@ -6,7 +6,10 @@
     "m.sakamaki <mail@m-sakamaki.jp>"
   ],
   "description": "sample application",
-  "main": "bin/index.js",
+  "main": [
+    "bin/index.js",
+    "bin/index.min.css",
+  ],
   "moduleType": [
     "es6"
   ],
