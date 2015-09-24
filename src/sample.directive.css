@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/**
+ * style name of the style sheet does not overlap, 
+ * adding module name to the beginning
+ */
+.app-directive-sample-container {
+  font-weight: bold;
+}
+
+.app-directive-sample-container .app-sample-main {
+  color: red;
+}
+
+/**
+ * @example sass
+ *
+ * .app-directive-sample {
+ *   font-weight: bold;
+ *   .app-sample-main {
+ *     color: red;
+ *   }
+ * }
+ **/
