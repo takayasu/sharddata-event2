@@ -1,0 +1,24 @@
+{
+  "name": "app-sample",
+  "version": "0.0.1",
+  "homepage": "https://github.com/MSakamaki/ng-component-template",
+  "authors": [
+    "m.sakamaki <mail@m-sakamaki.jp>"
+  ],
+  "description": "sample application",
+  "main": "bin/index.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

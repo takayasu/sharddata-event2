@@ -22,7 +22,7 @@ module.exports = function(grunt) {
   /**************************************************/
   /***************  Task Setting    *****************/
   /**************************************************/
-  grunt.registerTask('default', 'モックを実行し開発します。', function(target) {
+  grunt.registerTask('default', 'livereload development', function(target) {
       var tasks = [
         'initialTasks',
         'babel:demo',
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
       ];
       return grunt.task.run(tasks);
     });
-  grunt.registerTask('build', 'リリースします', function(target) {
+  grunt.registerTask('build', 'releace build', function(target) {
       var tasks = [
         'initialTasks',
         'clean:build',
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
       ];
       return grunt.task.run(tasks);
     });
-  grunt.registerTask('test', 'テストを行います', function(target) {
+  grunt.registerTask('test', 'run unit testing', function(target) {
       var tasks = [
         'jscs:src',
         'karma:unit',
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
   /*************** Private Commands *****************/
   /**************************************************/
 
-  grunt.registerTask('initialTasks', 'モックを実行し開発します。', function(target) {
+  grunt.registerTask('initialTasks', 'can not used', function(target) {
       var tasks = [
         'clean:tmp',
         'jscs:src',
