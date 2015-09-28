@@ -17,11 +17,8 @@
         ],
       },
       options: {
-        // files: [
-        //   '.tmp/src/{,*/}*.{html,js,css}'
-        // ],
         server: {
-          baseDir: ['demo', '.tmp/src', 'node_modules'],
+          baseDir: ['demo', '.tmp/src', 'node_modules', 'bower_components'],
         },
         watchTask: true,
       },
