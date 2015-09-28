@@ -7,16 +7,22 @@
       sourceMap: true,
     },
     demo: {
-      files: [{
-        expand: true,
-        cwd: 'src',
-        src: [
-          '**/*.directive.js',
-          '!**/*.directive.spec.js',
-        ],
-        dest: '.tmp/src',
-        ext: '.directive.js',
-      },],
+      files: [
+        'directive',
+        'service',
+        'factory',
+      ].map(function(service) {
+        return {
+          expand: true,
+          cwd: 'src',
+          src: [
+            '**/*.' + service + '.js',
+            '!**/*.' + service + '.spec.js',
+          ],
+          dest: '.tmp/src',
+          ext: '.' + service + '.js',
+        };
+      }),
     },
   };
 })();
