@@ -1,4 +1,4 @@
-# ng-component-template
+# Component Sample 
 
 angular component (directive) private bower starter kit.
 
